@@ -36,7 +36,9 @@ const Navbar = () => {
                 Login
               </Link>
             </li>
-            <li className='bg-black text-white p-3 rounded-2xl'>Create Account</li>
+            <li className='bg-black text-white p-3 rounded-2xl'>
+              <Link href={'register'}>Create Account</Link>
+            </li>
         </ul>
     </nav>
   )

@@ -98,7 +98,7 @@ const Register = () => {
                     <div>
                         <button className="hidden lg:flex w-full my-2 items-center justify-center p-3 rounded border border-lightGray/40 text-base gap-2 hover:shadow"><FcGoogle size={20}/>Sign up with Google</button>
                     </div>
-                    <span className=" text-base py-3 text-center font-manrope">Don’t have account?<Link href={'login'} className="text-[#9147F0] px-2 hover:underline decoration-2 underline-offset-2">Register</Link></span>
+                    <span className=" text-base py-3 text-center font-manrope">Already have an account?<Link href={'login'} className="text-[#9147F0] px-2 hover:underline decoration-2 underline-offset-2">Login</Link></span>
                 </form>
             </div>
         </div>

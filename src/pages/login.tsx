@@ -21,7 +21,9 @@ const Login = () => {
   return (
     <div className='flex min-h-screen'>
         <div className='w-1/2'>
-            <p className='text-3xl font-bold md:mx-20 p-4'>Risun</p>
+            <p className='text-3xl font-bold md:mx-20 p-4'>
+                <Link href={`/`}>Risun</Link>
+            </p>
             <div className='flex flex-col items-center'>
                 <p className='font-bold text-center text-3xl py-14'>Login</p>
                 <form className='w-full md:w-2/3 lg:w-3/4 flex flex-col justify-center'>
