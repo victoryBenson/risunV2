@@ -140,7 +140,7 @@ const EditProfile = () => {
                                     <p className="flex justify-between">
                                         <span>Basic</span>
                                         <span>4,500</span>
-                                    </p>
+                                    </p>    
                                     <p>For users who need simple image generation with limited features.</p>
                                 </div>
                            </div>

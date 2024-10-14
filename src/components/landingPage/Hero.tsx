@@ -16,7 +16,9 @@ const Hero = () => {
                     <p>
                         <select name="" id="" className='px-3 outline-none text-base font-semibold'>
                             <option value="filter">Filter By </option>
-                            <option value="2">option two</option>
+                            <option value="2">Photos</option>
+                            <option value=''>Illustration</option>
+                            <option value=''>Ai Generated</option>
                         </select>
                     </p>
                     <input type="text" placeholder='search for photos and illustration' className='p-3 w-full outline-none' />
