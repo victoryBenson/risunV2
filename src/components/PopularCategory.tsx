@@ -57,7 +57,7 @@ const PopularCategory = () => {
                 </div>
             </div>
             <div className='flex justify-center py-5'>
-                <button className='text-white bg-[#B20021] p-4 rounded-2xl'>Load more categories</button>
+                <Link href={`all-photo-category`} className='text-white bg-[#B20021] p-4 rounded-2xl text-[24px] w-[294px] h-[72px] text-center'>Load more categories</Link>
             </div>
         </div>
     </Wrapper>

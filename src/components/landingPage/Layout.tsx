@@ -1,10 +1,11 @@
 import React from 'react'
 import Hero from './Hero'
 import FindContent from './FindContent'
-import FeaturedCollections from './FeaturedCollections'
+// import FeaturedCollections from './FeaturedCollections'
 import RecentSearch from './RecentSearch'
 import NewsLetter from '../NewsLetter'
 import LimitlessAccess from '../LimitlessAccess'
+import PopularCategory from '../PopularCategory'
 
 
 const Layout = () => {
@@ -13,7 +14,8 @@ const Layout = () => {
         <Hero/>
         <LimitlessAccess/>
         <FindContent/>
-        <FeaturedCollections/>
+        <PopularCategory/>
+        {/* <FeaturedCollections/> */}
         <RecentSearch/>
         <NewsLetter/>
     </>
